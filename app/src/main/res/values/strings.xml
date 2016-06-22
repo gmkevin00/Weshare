@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WeShare</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_film">FilmActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">1053759124643615</string>
+    <string name="title_activity_upload">Upload</string>
+    <string name="title_activity_getkey">Getkey</string>
+    <string name="title_activity_checkkey">Checkkey</string>
+    <string name="title_activity_finishupload">Finishupload</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_check_key">CheckKey</string>
+    <string name="title_activity_watch_vdo">WatchVdo</string>
+    <string name="title_activity_check_key2">CheckKey2</string>
+</resources>

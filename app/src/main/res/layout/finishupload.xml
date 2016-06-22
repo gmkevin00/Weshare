@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_weight="1"
+        android:id="@+id/layout1">
+
+        <ImageButton
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton5"
+            android:src="@drawable/left"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:onClick="toMap" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/privacy"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:id="@+id/imageButton6"
+            android:src="@drawable/check"
+            android:onClick="finish" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.63">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/layout2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:text="請輸入您的信息："
+                android:id="@+id/textView2"
+                android:layout_gravity="center_horizontal"
+                android:textSize="10pt"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_gravity="top" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="請選擇權限："
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textSize="10pt"
+            android:layout_marginLeft="10dp" />
+
+        <RadioGroup
+            android:layout_width="219dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            android:id="@+id/rd">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="公開"
+                android:id="@+id/topublic"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="僅限朋友"
+                android:id="@+id/tofriend"
+                android:checked="false" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="96dip"
+            android:layout_height="62dip"
+            android:id="@+id/imageButton"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="50dip"
+            android:src="@drawable/ic_map1"
+            android:layout_gravity="bottom"
+            android:onClick="toMap" />
+
+        <ImageButton
+            android:layout_width="96dip"
+            android:layout_height="62dip"
+            android:id="@+id/imageButton2"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/imageButton"
+            android:layout_toEndOf="@+id/imageButton"
+            android:src="@drawable/ic_video2"
+            android:layout_gravity="bottom"/>
+
+        <ImageButton
+            android:layout_width="96dip"
+            android:layout_height="62dip"
+            android:id="@+id/imageButton3"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/imageButton4"
+            android:src="@drawable/ic_note1"
+            android:layout_gravity="bottom" />
+
+        <ImageButton
+            android:layout_width="96dip"
+            android:layout_height="62dip"
+            android:id="@+id/imageButton4"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_user1"
+            android:layout_gravity="bottom" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
